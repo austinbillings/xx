@@ -6,7 +6,7 @@
     # Set header to CSS content type
     header("Content-type: text/css; charset: UTF-8");
     # Clean float takes an value ($input) and turns it into a string, eliminating any decimals and hyphens (for example, 4.0, 4, and -4.0 all render out to "4". 4.5 renders to "45")
-    function cleanFloat($input) { 
+    function cleanFloat($input) {
         $almost = str_replace(['-','.'],'',"".$input);
         #$done = (substr($almost,0,1)=="0" ? substr($almost,1) : $almost);
         return $almost; }
@@ -126,7 +126,7 @@
                             $webKitAddon = "";
                         }
                         $output .= "." . $prefix.cleanFloat($x) . $suffix."m{".$webKitAddon.$property["property"].":" . $subProp . $x . $units . ";}\n";
-                        
+
                         $x = $x+$step;
                     }
                 }
@@ -139,7 +139,7 @@ if (!empty($minify)) {
     # remove all the line breaks
     $output = str_replace("\n", "", $output);
 # otherwise...
-}else{
+} else {
     # put a little header up top with compilation time
     echo '/* XX.CSS -- compiled in '.((microtime() - $startTime) * 1000)."ms */";
 }
