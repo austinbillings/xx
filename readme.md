@@ -33,7 +33,7 @@ can be conveniently recreated using these shorthand classes:
 
 ***
 
-## Why is it called xx.css?
+## Why is it called `xx`?
 
 Come on. You know about variables right? **xx** refers to the fact that MOST of the classes consist of a prefix, followed by a numerical value. xx references the variable nature of this numerical value.
 
