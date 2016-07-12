@@ -2,9 +2,9 @@
 ***
 ## What is it?
 
-`xx.css` (pronounced <i>double ex</i>) is a sort of library-- think of it as a way to code your inline styles as shorthand classes. It really makes life easier when you've got the hang of it.
+`xx` (pronounced <i>double ex</i>) is a sort of CSS library-- think of it as a way to code your inline styles as shorthand classes. It really makes life easier when you've got the hang of it.
 
-`xx.css` has been designed to replace a vast majority of use cases for inline style tags. Now, your HTML can be cleaner thanks to over 3,500 classes ready to use in any development project. `xx.css` includes mobile-specific versions of every class as well, so coding responsive designs is easier than ever.
+`xx` has been designed to replace a vast majority of use cases for inline style tags. Now, your HTML can be cleaner thanks to over 3,500 classes ready to use in any development project. `xx` includes mobile-specific versions of every class as well, so coding responsive designs is easier than ever.
 
 In some tests, `xx` reduced total style declaration letter count by 70%.
 
