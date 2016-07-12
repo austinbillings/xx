@@ -16,19 +16,18 @@ First, you've got to include the script (or a rendered css sheet) in your projec
 
 **Minified:**
 
-    <link rel="stylesheet" type="text/css" href="./lib/xx.php?min=true">
+    <link rel="stylesheet" type="text/css" href="/path/to/xx/dist/xx.min.css">
 
 **Verbose**
+    <link rel="stylesheet" type="text/css" href="/path/to/xx/dist/xx.css">
 
-    <link rel="stylesheet" type="text/css" href="./lib/xx.php">
-    
 Now you can start implementing the xx classes into your code, instead of their long-winded `style` attribute counterparts. For example, the following code:
 
     <span style="font-size:22px;font-weight:600;opacity:0.6;font-style:italic;display:inline-block;margin:10px;margin-top:20px;">
         Cool Internet
     </span>
 
-can be conviently recreated using these shorthand classes:
+can be conveniently recreated using these shorthand classes:
 
     <span class="f22 w600 o6 i inbloc m10 drag20"> Cooler internet! </span>
 
