@@ -1,0 +1,17 @@
+{
+  "name": "xx",
+  "description": "CSS shortcodes for the greater good.",
+  "main": "dist/xx.min.css",
+  "authors": [
+    "Austin Billings <austinjosephbillings@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/austinbillings/xx",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
