@@ -1,0 +1,21 @@
+{
+  "name": "xx",
+  "homepage": "https://github.com/austinbillings/xx",
+  "authors": [
+    "austinbillings <austinjosephbillings@gmail.com"
+  ],
+  "description": "CSS shortcodes for the greater good.",
+  "main": "dist/xx.min.css",
+  "keywords": [
+    "css",
+    "shortcode"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

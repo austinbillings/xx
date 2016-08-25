@@ -1,4 +1,6 @@
 # xx.css
+
+
 ***
 ## What is it?
 
@@ -15,10 +17,9 @@ In some tests, `xx` reduced total style declaration letter count by 70%.
 First, you've got to include the script (or a rendered css sheet) in your project like so (DUH):
 
 **Minified:**
-
     <link rel="stylesheet" type="text/css" href="/path/to/xx/dist/xx.min.css">
 
-**Verbose**
+**Pretty**
     <link rel="stylesheet" type="text/css" href="/path/to/xx/dist/xx.css">
 
 Now you can start implementing the xx classes into your code, instead of their long-winded `style` attribute counterparts. For example, the following code:
@@ -33,8 +34,30 @@ can be conveniently recreated using these shorthand classes:
 
 ***
 
+
+## How the f*ck do I compile the CSS?
+
+If you made added to the generated properties (in `xx.json`) or you lost your copy of the CSS files, you might wanna generate the CSS yourself.
+
+Got PHP installed? I thought so. `cd` to the src directory in terminal, then run `php xx.php`. It will automatically build pretty and minified css files to the `/dist` directory.
+
+***
+
+
 ## Why is it called `xx`?
 
 Come on. You know about variables right? **xx** refers to the fact that MOST of the classes consist of a prefix, followed by a numerical value. xx references the variable nature of this numerical value.
 
 For instance, setting font-size to 15px pixels is written as `f15`, setting margin left to 30px is written as `ml30`, and setting a max-width of 50% is written as `max50p`. These could be visualized simply as `fxx`, `mlxx`, and `maxxXp`. Some classes use numeric values of 1 digit (i.e. `opacity: 0.5` is written as `o5`) and some use 3 digits (for example, `max-width:500px` is `max500`), but the principle remains the same.
+
+***
+
+## Where's the cheatsheet? How do I know what codes to use? This isn't documentation.
+
+Relax. Just take a look at the non-minified CSS file. Cmd+F to find the css property you wanna change. The rest will be obvious. There are a TON of shortcodes.
+
+***
+
+## Bower Install
+
+If you wanna install via bower, just do `bower install xx`. Easy peasy!
