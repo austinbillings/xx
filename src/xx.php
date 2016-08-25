@@ -1,7 +1,6 @@
 <?php
 # Check for minify flag in URL
 //$minify = (!empty($argv[1]) ? $argv[1] : !empty($_GET["min"]) ? true : false);
-//
 $loop = [0,1];
 # Establish processing start time for total render time calculation
 # Set header to CSS content type
