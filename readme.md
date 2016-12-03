@@ -1,6 +1,5 @@
 ![XX Logo](http://austinbillings.com/projects/Xx.png)
 
-***
 ## What is it?
 
 `xx` (pronounced <i>double ex</i>) is a sort of CSS library-- think of it as a way to code your inline styles as shorthand classes. It really makes life easier when you've got the hang of it.
