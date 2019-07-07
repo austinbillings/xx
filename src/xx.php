@@ -18,7 +18,7 @@ foreach ($loop as $idx=>$example) {
 	$output = "";
 	# Pull properties from relevant json file
 	# true as argument forces an array instead of a php object (so we can iterate)
-	$props = json_decode(file_get_contents('xx.json'),true);
+	$props = json_decode(file_get_contents(__DIR__ . '/xx.json'),true);
 	# Iterate through each category
 	foreach ($props as $categoryName=>$set) {
 		# Unless minify is set...
@@ -149,7 +149,7 @@ foreach ($loop as $idx=>$example) {
 		}
 		# show it!
 		//echo $output;
-		echo 'XX.'.(!empty($minify)?'min.':'').'CSS -- compiled in '.((microtime() - $startTime) * 1000)."ms".PHP_EOL;
+		echo 'xx.'.(!empty($minify)?'min.':'').'css -- compiled in '.((microtime() - $startTime) * 1000)."ms".PHP_EOL;
 		## optional:
 		## every time it's run, create a new flat css file with the output
 		file_put_contents(dirname(__DIR__).'/dist/xx.'.(!empty($minify) ? 'min.' : '').'css',$output);
