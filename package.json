@@ -1,7 +1,7 @@
 {
-  "name": "xx",
-  "version": "1.0.0",
-  "description": "CSS shortcodes for the greater good.",
+  "name": "xx-css",
+  "version": "1.0.4",
+  "description": "Atomic CSS shortcodes for the greater good.",
   "main": "dist/xx.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
